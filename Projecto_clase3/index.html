@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Selectores Avanzados</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <section id="selectorHijo">
+            <h1>Selectores avanzados</h1>
+            <p> Este es un parrafo en la seccion con id Selector Hijo</p>
+                <!-- camelcase- primera letra minuscula y la siguiente palabra selectorHijo
+                snakecase- selector_hijo selector-hijo -->
+            <div class="contenedorSelectorHijo">
+                <p>Este es un parrafo en la clase conector Selector Hijo</p>
+                <h5>Encabezado prueba clase css</h5>
+            </div>
+        </section>
+
+        <section id="selectorHermano">
+            <h3>Este es un encabezado en la seccion Selector Hermano</h3>
+            <p>Este es un parrafo en la seccion Selector Hermano</p>
+            <p>Estos selectores (Hermano Adjacente) no se usan mucho, ya que generalemente se usan clases </p>
+        </section>
+
+        <section id="selectorHermanoGeneral">
+            <h3>Selector Hermano General</h3>
+            <span>
+                Este es un Span dentro de la seccion Selector Hermano General
+            </span>
+            <div class="containerHermanoGeneral">
+                <h3>Este es un header dentro de la seccion Selector Hermano General y dentro de la clase Contenedor Hermano General</h3>
+                <span>
+                    Este es un Span dentro de la seccion Selector Hermano General y dentro de la clase Contenedor Hermano General 
+                </span>
+                <p>Este es un ejemplo de parrafo para mostrar que el selector hermano general esta buscando al H3 next to span </p>
+            </div>
+        </section>
+        <section id="selectorAtributo">
+            <a href="google.com"> Ver Google</a>
+            <a href="kodemia.mx"> Ver Kodemia</a>
+            <a href="facebook.com"> Ver Facebook</a>
+        </section>
+        <section id="pseudoSelectores">
+            <h2>Pseudo Selectores </h2>
+            <a href="instagram.com">Ver Instagram</a>
+        </section>
+        <section id="hover">
+
+            <img src="https://cs1.brightcodes.net/agonzalez/Image_test.png" alt="hover Image" class="hoverImage">HOVER IMAGE</src>
+            <button class="buttonHover">Hover me </button>
+        </section>
+        <section id="enlaces">
+            <a href="amazon.com.mx">Ver Amazon Mexico </a>
+            <a href="mercadolibre.com.mx">Ver Mercado Libre </a>
+            <a href="macstore.com">Ver MacStore </a>
+        </section>
+
+
+    </body>
+</html>

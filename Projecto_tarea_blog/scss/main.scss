@@ -1,0 +1,100 @@
+// declaracion de variables
+$colorFondoLista: rgb(255, 193, 244);
+$colorBordeCajas: rgb(243, 74, 212);
+$colorFondoNavbar: rgb(148, 55, 131);
+$bordeLigero: 1px dashed $colorBordeCajas;
+$paddingNavbar: 8px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body{
+    color:rgb(255, 155, 237);
+    }
+img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    color:rgb(46, 22, 70)
+}
+
+.containers{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border: $bordeLigero;
+    flex-wrap: wrap;
+}
+.containerImg {
+    background-color: $colorFondoLista;
+    width: 350px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+    padding: 25px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: $bordeLigero;
+    transition: width 500ms linear
+}
+.containerImg:hover{
+    width: 400px;
+}    
+@media (min-width: 600px){
+    .desktop {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .containerImg{
+          width: 90%;
+      }
+      .containerImg:hover{
+        width: 100%;
+    } 
+
+}
+@media (min-width: 768px){
+    .desktop {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .containerImg{
+          width: 45%;
+      }
+      .containerImg:hover{
+        width: 50%;
+    } 
+}
+  
+    @media (min-width: 1024px) {
+        .desktop {
+      width: 95%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      align-items: center;
+    }
+    .containerImg{
+        width: 28%;
+    }
+    .containerImg:hover{
+        width: 30%;
+    } 
+  }

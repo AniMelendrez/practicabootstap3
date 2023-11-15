@@ -1,0 +1,57 @@
+$bordeLigero: 1px dashed;
+
+.miGrid{
+    border:$bordeLigero;
+    background-color: rgb(232, 146, 164);
+    padding: 30px;
+}
+
+.mirow{
+    border:1px solid coral;
+    padding: 20px;
+    margin:20px;
+}
+.miCol{
+    display: flex;
+    justify-content: center;
+    color:rgb(84, 47, 112);
+    border-style: double;
+    border-color:aquamarine;
+    border-width: 2px;
+   /* margin:30px;8*/
+    background-color: cadetblue;
+}
+
+.miGridFijo{
+    margin-top:40px;
+}
+.miArt{
+    display: flex;
+    justify-content: flex-start;
+    color:rgb(84, 47, 112);
+    border-style: double;
+    border-color:aquamarine;
+    border-width: 2px;
+   /* margin:30px;8*/
+    background-color: rgb(233, 250, 250);
+}
+.miSide{
+    display: flex;
+    justify-content: flex-start;
+    color:rgb(147, 87, 193);
+    border-style: double;
+    border-color:aquamarine;
+    border-width: 2px;
+   /* margin:30px;8*/
+    background-color: rgb(121, 46, 126);
+}
+.miCol1{
+    display: flex;
+    justify-content: flex-start;
+    color:white;
+    border-style: double;
+    border-color:aquamarine;
+    border-width: 2px;
+   /* margin:30px;8*/
+    background-color: rgb(55, 55, 165);
+}

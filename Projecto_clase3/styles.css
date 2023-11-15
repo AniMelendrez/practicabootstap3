@@ -1,0 +1,44 @@
+#selectorHijo{
+    border:1px solid black;
+    padding: 150px;
+}
+p{
+    color:blueviolet;
+}
+.contenedorSelectorHijo{   
+    color:aqua;
+}
+
+#selectorHermano h3 + p {
+    background-color: cyan;
+    outline: red solid;
+}
+#selectorHermanoGeneral h3 ~ span {
+    background-color: yellow;
+}
+a [href="google.com"]{
+    color:brown;
+}
+a[href="kodemia.mx"]{
+    margin:70px
+}
+
+.hoverImage:hover{
+    width: 800px;
+}
+.buttonHover{
+    background-color: transparent;
+    border:10px solid burlywood;
+    padding: 8px
+}
+
+.buttonHover:hover{
+    background-color: blueviolet;
+    color:antiquewhite;
+}
+a:link{
+    color:aqua;
+}
+a:visited{
+    color:chartreuse;
+}

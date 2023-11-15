@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Este es el titulo</title>
+<link href=".styles.css">
+</head>
+<body>
+   <!-- Este es un comentario -->
+<p> Este es un parrafo </p> 
+<a href="https://kodemia.mx/" target="_blank">Haz click para if a Kodemia</a>
+<a href="https://purina.com.pe/purina/nota/perros/curiosidades-de-los-pug ">  <img scr="https://cs1.brightcodes.net/agonzalez/Image_test.png"></a>
+<a href="mailto:fulanito@kodemia.com">Enviar email</a>
+<p>Telefono</p><a href="tel:800 123 1114">800 123 1114</a>
+<a href="#seccion1">Ir a seccion 1</a>
+
+<section id="seccion1">
+    <p>El <abbr title="Instituto Mexicano Del Seguro Social">IMSS</abbr> Enero 19, 1943.</p>
+    <address>
+        Escrito por <a href="mailto:fulanita@kodemia.com">Fulanita de tal</a>.<br>
+        Visitanos en:<br>
+        www.kodemia.com<br>
+        Juarez #46<br>
+        Mexico
+        </address>
+</section>
+
+<section id="Area">
+<h3>Area </h3>
+<p>The <area> tag defines an area inside an image map (an image map is an image with clickable areas)<br>The <area> tag defines an area inside an image map (an image map is an image with clickable areas)</p>
+  <img src="https://cs1.brightcodes.net/agonzalez/Image_test.png" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+</section>
+
+<section id="article">
+  <h3>Article</h3>
+  <p>The <article> tag specifies independent, self-contained content.
+
+    An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.
+    
+    Potential sources for the <article> element:
+    
+    Forum post
+    Blog post
+    News story
+    Note: The <article> element does not render as anything special in a browser. However, you can use CSS to style the <article> element (see example below).
+    
+    </p>
+
+</section>
+
+<section id="aside">
+  <h3>Este es un ejemplo de Aside</h3>
+  <aside>
+    <p>
+      The aside tag defines some content aside from the content it is placed in.
+
+        The aside content should be indirectly related to the surrounding content.
+        
+        Tip: The aside content is often placed as a sidebar in a document.
+        
+        Note: The aside element does not render as anything special in a browser. However, you can use CSS to style the aside element (see example below).
+    </p>
+  </aside>
+</section>
+<section id="Audio">
+  <h3>Este es un ejemplo de audio</h3>
+  <p>
+    The audio tag is used to embed sound content in a document, such as music or other audio streams.
+
+      The audio tag contains one or more source tags with different audio sources. The browser will choose the first source it supports.
+      
+      The text between the audio and audio tags will only be displayed in browsers that do not support the audio element.
+      
+      There are three supported audio formats in HTML: MP3, WAV, and OGG.
+  </p>
+  <audio controls>
+    <source src="Marc Anthony - Parecen Viernes (Letra).mp3" type="audio/mpeg">
+  </audio>
+</section>
+<section id="bold">
+  <h3>Este es un ejemplo de Bold</h3>
+  <p>Este es un parrafo normal <b>Este es texto es bold dentro de un parrafo</b> bye. </p>
+</section>
+<section id="bdi">
+  <h3>Ejemplo de bdi</h3>
+  <p>BDI stands for Bi-Directional Isolation.
+
+    The bdi tag isolates a part of text that might be formatted in a different direction from other text outside it.
+    
+    This element is useful when embedding user-generated content with an unknown text direction. </p>
+    <ul>
+      <li>User <bdi>hrefs</bdi>: 60 points</li>
+      <li>User <bdi>jdoe</bdi>: 80 points</li>
+      <li>User <bdi>إيان</bdi>: 90 points</li>
+    </ul>  
+</section>
+<section id="bdo">
+  <h3>Ejemplo de bdo</h3>
+  <p> BDO stands for Bi-Directional Override.
+
+    The bdo tag is used to override the current text direction.</p>
+  <bdo dir="rtl">
+    Este texto va de derecha a izquierda.<br>
+  </bdo>
+  <bdo dir="ltr">
+    Este texto va de izquierda a derecha.
+  </bdo>
+</section>
+<section id="blockquote">
+  <h3>Esta es un ejemplo de Blockquote</h3>
+  <p>Aqui esta una porcion de la documentacion </p>
+  <blockquote cite:"https://studio.support.brightcove.com/media/module/getting-started-media-module.html">
+    Note that the list of columns will also include any custom fields that have been created for the account. As more columns are selected, it is possible to horizontally scroll to see all of the columns.
+  </blockquote>
+</section>
+<section id="boton">
+  <button type:"button" onclick="alert('precionaste mi boton')"> Presiona aqui </button>
+</section>
+<section id="canvas">
+  <h3>Este es un ejemplo de Canvas</h3>
+  <p>
+    The canvas tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+
+      The canvas tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics.
+      
+      Any text inside the canvas element will be displayed in browsers with JavaScript disabled and in browsers that do not support canvas.
+  </p>
+  <canvas id="myCanvas"width="300px" height="300px" style="border:1px solid grey"></canvas>
+</section>
+<section id="code">
+<p>The code tag is used to define a piece of computer code, the content inside is displayed in the browser's default monospace font<br><b>Tip</b> This tag is not depecated, hoever, it is possible to achive richer effect by using CSS.</p>  
+<code>
+  {
+    "master": {
+      "url": "https://host/master.mp4"
+    },
+    "profile": "DynamicDeliverIngestProfile",
+    "callbacks": [
+      "https://mydomain.com/di-callbacks.php"
+    ]
+  }
+</code>
+</section>
+<section id="datalist">
+  <h3>Este es un ejemplo de Datalist</h3>
+  <p>
+    The datalist tag specifies a list of pre-defined options for an input element.
+
+      The datalist tag is used to provide an "autocomplete" feature for input elements. Users will see a drop-down list of pre-defined options as they input data.
+      
+      The datalist element's id attribute must be equal to the input element's list attribute (this binds them together).
+  </p>
+<label for="browser">Elige un browser de la lista:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+</section>
+</body>
+</html>
